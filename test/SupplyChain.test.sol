@@ -39,11 +39,11 @@ contract SupplyChainTest is Test {
         vm.label(productOwner2, "ProductOwner2");
     }
 
-    function testDeployment() public {
+    function testDeployment() public view {
         assertTrue(address(supplyChain) != address(0), "Contract should deploy");
     }
 
-    function testRoleAssignment() public {
+    function testRoleAssignment() public view{
         // Check DEFAULT_ADMIN_ROLE
         assertTrue(supplyChain.hasRole(supplyChain.DEFAULT_ADMIN_ROLE(), owner), "Owner should have admin role");
 
@@ -53,7 +53,7 @@ contract SupplyChainTest is Test {
         assertTrue(supplyChain.hasRole(supplyChain.RETAILER_ROLE(), retailer), "Retailer role not set");
     }
 
-    function testHashCalculation() public {
+    function testHashCalculation() public view {
         uint256 pufId = 0;
         uint256 challenge = 102;
 
