@@ -43,7 +43,7 @@ contract SupplyChainTest is Test {
         assertTrue(address(supplyChain) != address(0), "Contract should deploy");
     }
 
-    function testRoleAssignment() public view{
+    function testRoleAssignment() public view {
         // Check DEFAULT_ADMIN_ROLE
         assertTrue(supplyChain.hasRole(supplyChain.DEFAULT_ADMIN_ROLE(), owner), "Owner should have admin role");
 
