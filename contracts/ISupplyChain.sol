@@ -97,12 +97,8 @@ interface ISupplyChain {
     /// @param _suppliedHash The hash supplied for validation
     /// @param _location The initial location of the product
     /// @param _productOwner The initial owner of the product
-    function addProduct(
-        uint256 _pufId,
-        bytes32 _suppliedHash,
-        string memory _location,
-        address _productOwner
-    ) external;
+    function addProduct(uint256 _pufId, bytes32 _suppliedHash, string memory _location, address _productOwner)
+        external;
 
     /// @notice Updates the location of a product
     /// @dev Callable by addresses with DISTRIBUTOR_ROLE or RETAILER_ROLE

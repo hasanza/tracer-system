@@ -81,21 +81,12 @@ contract SupplyChain is ISupplyChain, AccessControlEnumerable {
     /// @param _suppliedHash The hash supplied for validation
     /// @param _location The current location of the product
     /// @param _productOwner The current owner of the product
-    function addProduct(
-        uint256 _pufId,
-        bytes32 _suppliedHash,
-        string memory _location,
-        address _productOwner
-    ) external onlyManufacturer() {
+    function addProduct(uint256 _pufId, bytes32 _suppliedHash, string memory _location, address _productOwner)
+        external
+        onlyManufacturer
+    {
         performValidation(_pufId, _suppliedHash);
-        products[_pufId] = ProductRecord(
-            _pufId,
-            _suppliedHash,
-            _location,
-            block.timestamp,
-            _productOwner,
-            true
-        );
+        products[_pufId] = ProductRecord(_pufId, _suppliedHash, _location, block.timestamp, _productOwner, true);
         emit RecordAdded(_pufId, _location);
     }
 
