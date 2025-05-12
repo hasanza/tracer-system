@@ -1,0 +1,3 @@
+[submodule "pypuf/lib/forge-std"]
+	path = pypuf/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
