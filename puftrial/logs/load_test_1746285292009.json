@@ -1,0 +1,43 @@
+{
+  "timestamp": 1746285292009,
+  "contractAddress": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+  "gasPrice": "1000000008",
+  "results": [
+    {
+      "scenario": "initial",
+      "total": 10,
+      "concurrency": 10,
+      "durationMs": 32,
+      "throughputTxPerSec": 312.5,
+      "avgLatencyMs": 31.2,
+      "stdLatencyMs": 0.4,
+      "totalGas": "1056656",
+      "avgGas": "105665",
+      "avgCostWei": "105665000845320"
+    },
+    {
+      "scenario": "sustained",
+      "total": 100,
+      "concurrency": 20,
+      "durationMs": 268,
+      "throughputTxPerSec": 373.13432835820896,
+      "avgLatencyMs": 52.43,
+      "stdLatencyMs": 6.705602135528177,
+      "totalGas": "8515028",
+      "avgGas": "85150",
+      "avgCostWei": "85150000681200"
+    },
+    {
+      "scenario": "peak",
+      "total": 50,
+      "concurrency": 50,
+      "durationMs": 118,
+      "throughputTxPerSec": 423.728813559322,
+      "avgLatencyMs": 114.36,
+      "stdLatencyMs": 3.570770225035487,
+      "totalGas": "4251860",
+      "avgGas": "85037",
+      "avgCostWei": "85037000680296"
+    }
+  ]
+}

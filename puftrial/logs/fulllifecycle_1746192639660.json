@@ -1,0 +1,42 @@
+{
+  "timestamp": 1746192639660,
+  "contractAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "results": [
+    {
+      "phase": "enroll",
+      "signer": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "gasUsed": "114358",
+      "durationMs": 10
+    },
+    {
+      "phase": "manufacture",
+      "signer": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "gasUsed": "268466",
+      "durationMs": 12
+    },
+    {
+      "phase": "ship",
+      "signer": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "gasUsed": "27246",
+      "durationMs": 12
+    },
+    {
+      "phase": "distribute",
+      "signer": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+      "gasUsed": "29752",
+      "durationMs": 10
+    },
+    {
+      "phase": "retail",
+      "signer": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "gasUsed": "32030",
+      "durationMs": 11
+    },
+    {
+      "phase": "deliver",
+      "signer": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+      "gasUsed": "32138",
+      "durationMs": 10
+    }
+  ]
+}

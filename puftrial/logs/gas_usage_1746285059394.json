@@ -1,0 +1,18 @@
+{
+  "timestamp": 1746285059394,
+  "gasPrice": "1000000008",
+  "enroll": {
+    "count": 100,
+    "totalGas": "9742708",
+    "avgGas": "97427",
+    "totalCostWei": "9742708077941664"
+  },
+  "addProduct": {
+    "gasUsed": "268466",
+    "costWei": "268466002147728"
+  },
+  "updateLocation": {
+    "gasUsed": "33790",
+    "costWei": "33790000270320"
+  }
+}

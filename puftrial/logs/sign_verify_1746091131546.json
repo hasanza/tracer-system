@@ -1,0 +1,12 @@
+{
+  "timestamp": 1746091131546,
+  "iterations": 100,
+  "signing_ms": {
+    "average": 0.598,
+    "stddev": 0.377
+  },
+  "verify_ms": {
+    "average": 1.63,
+    "stddev": 1.252
+  }
+}
